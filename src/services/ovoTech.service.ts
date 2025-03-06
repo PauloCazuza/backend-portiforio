@@ -17,7 +17,7 @@ export class OvoTechService {
     const fetch = api(this.configService);
     console.log('entrou', message);
     const res = await fetch.post<IChatGPT>('chat/completions', {
-      model: 'gpt-4',
+      model: 'deepseek-chat',
       messages: [
         {
           role: 'system',
