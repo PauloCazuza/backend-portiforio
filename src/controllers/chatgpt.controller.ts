@@ -10,4 +10,9 @@ export class ChatGPTController {
     const data = await this.appService.sendChatGPT(message);
     return { message: data };
   }
+
+  @Get()
+  async getHello() {
+    return { message: 'HELLO WORD' };
+  }
 }
