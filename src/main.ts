@@ -8,10 +8,10 @@ async function bootstrap() {
     origin: [
       'https://portifolio-xi-paulo-roberto.vercel.app',
       'https://portifolio-git-main-paulo-roberto-lopes-projects.vercel.app',
-      'portifolio-gebyqtk6m-paulo-roberto-lopes-projects.vercel.app',
-      'https://collectchicken.netlify.app',
+      'https://ovotech.vercel.app/',
       'http://localhost:3333',
       'http://localhost:5173',
+      'portifolio-gebyqtk6m-paulo-roberto-lopes-projects.vercel.app',
     ],
     methods: 'GET, HEAD, PUT, POST, DELETE, OPTIONS, PATCH',
     credentials: true,
