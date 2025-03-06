@@ -5,7 +5,14 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   app.enableCors({
-    origin: ['https://portifolio-xi-paulo-roberto.vercel.app', 'https://portifolio-git-main-paulo-roberto-lopes-projects.vercel.app', 'portifolio-gebyqtk6m-paulo-roberto-lopes-projects.vercel.app', 'http://localhost:3333'],
+    origin: [
+      'https://portifolio-xi-paulo-roberto.vercel.app',
+      'https://portifolio-git-main-paulo-roberto-lopes-projects.vercel.app',
+      'portifolio-gebyqtk6m-paulo-roberto-lopes-projects.vercel.app',
+      'https://collectchicken.netlify.app',
+      'http://localhost:3333',
+      'http://localhost:5173',
+    ],
     methods: 'GET, HEAD, PUT, POST, DELETE, OPTIONS, PATCH',
     credentials: true,
     allowedHeaders:
