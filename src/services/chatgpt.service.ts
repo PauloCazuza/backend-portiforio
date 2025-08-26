@@ -10,7 +10,7 @@ export class ChatGPTService {
   async sendChatGPT(message: string) {
     const fetch = api(this.configService);
     const res = await fetch.post<IChatGPT>('chat/completions', {
-      model: 'gpt-3.5-turbo',
+      model: 'deepseek-chat',
       messages: [
         {
           role: 'system',
